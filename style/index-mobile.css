@@ -1,0 +1,151 @@
+@media screen and (max-width: 940px) {
+  /* Offer Section */
+
+  .offer {
+    text-align: center;
+    background: #efeff2;
+    display: block;
+    margin: 40px 0;
+  }
+
+  .offer_holder {
+    padding: 60px 10px;
+    margin: 0;
+    background: url(../img/Ellipse-bg3.png) 50% 1% no-repeat;
+    background-size: 470px;
+  }
+
+  .offer_title {
+    font-size: 38px;
+    line-height: 40px;
+    margin: 0 0 62px;
+  }
+
+  .button {
+    margin: 0 0 80px;
+  }
+
+  .offer_list {
+    display: none;
+  }
+
+  /* Learn section */
+
+  .learn {
+    padding: 0;
+  }
+
+  .learn-box {
+    display: block;
+  }
+
+  .learn_text {
+    padding: 40px 0;
+    max-width: 430px;
+  }
+
+  .learn_title {
+    text-align: center;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .learn_description {
+    margin: 28px 0 24px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #efeff2;
+  }
+
+  .learn_couters {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+  }
+
+  .learn_counter-item {
+    width: 69px;
+    border-bottom: 4px solid;
+    padding-bottom: 22px;
+  }
+
+  .learn_counter-number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .learn_counter-description {
+    font-size: 14px;
+    line-height: 18px;
+    color: #efeff2;
+  }
+
+  /* Discover section */
+
+  .discover {
+    padding: 0;
+  }
+
+  .discover_title {
+    padding: 40px 0;
+    text-align: center;
+    max-width: 430px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .discover_menu {
+    margin: 0 0 40px;
+  }
+
+  .discover_list {
+    display: block;
+  }
+
+  .discover_button {
+    display: none;
+  }
+
+  .discover_button.active {
+    display: block;
+  }
+
+  .discover_cards {
+    display: block;
+    text-align: center;
+  }
+
+  .discover_card-item {
+    margin: 20px 0;
+  }
+
+  .discover_card-item img {
+    display: none;
+  }
+
+  /* Find program section */
+
+  .find_program-box {
+    text-align: center;
+    padding: 40px 0;
+    display: block;
+  }
+
+  .find_program-title {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .find_program-form {
+    margin: 48px 0 0;
+  }
+
+  .find_program_input {
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: 48px;
+    display: block;
+  }
+}

@@ -1,0 +1,114 @@
+@media screen and (max-width: 940px) {
+  .course {
+    text-align: center;
+    background: #efeff2;
+    display: block;
+    margin: 40px 0;
+  }
+
+  .course_info {
+    margin: 0 auto;
+    background: url(../img/Ellipse-bg3.png) 50% 15% no-repeat;
+    background-size: 470px;
+  }
+
+  .course_duration p {
+    margin: 0 auto;
+  }
+
+  .course_title {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .course_description {
+    margin: 40px 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .offer_list {
+    display: none;
+  }
+
+  /* Profession section  */
+
+  .profession {
+    padding: 60px 0 0;
+    background: #fbfbfc;
+  }
+
+  .profession_details {
+    display: block;
+  }
+
+  .profession_type {
+    max-width: 430px;
+  }
+
+  .profession_title {
+    text-align: center;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .profession_description {
+    margin: 48px 0;
+    color: #6d6d77;
+  }
+
+  .profession_stats {
+    display: block;
+  }
+
+  .profession_stat-item {
+    margin-bottom: 20px;
+  }
+
+  .profession_stat-number {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .profession_stat {
+    width: 154px;
+    padding-bottom: 21px;
+    border-bottom: 4px solid;
+  }
+
+  .profession_stat-description {
+    margin-top: 18px;
+    color: #6d6d77;
+  }
+
+  .profession_cards {
+    display: block;
+  }
+
+  .profession_card-item {
+    margin-bottom: 20px;
+  }
+
+  /* Prices section */
+
+  .prices {
+    padding: 40px 0;
+  }
+
+  .prices_title {
+    max-width: 430px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .prices_cards {
+    display: block;
+  }
+
+  .prices_card-item {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,261 @@
+/* Offer Section Styles */
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/man-main-page.png) 83% 130%,
+    url(../img/Rectangle-purple.png) 83% 100%,
+    url(../img/Ellipse-bg1.png) 85% 65%, url(../img/Ellipse-bg2.png) 75% 200%;
+  background-repeat: no-repeat;
+}
+
+.offer_holder {
+  max-width: 648px;
+  margin: 200px 0 220px;
+  background: url(../img/Ellipse-bg3.png) 100% 60% no-repeat;
+}
+
+.offer_title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 0 0 18px;
+}
+
+.offer_description {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 62px;
+}
+
+.button {
+  background: #504dee;
+  color: #fbfbfc;
+  border: none;
+  padding: 16px 37px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 110px;
+  cursor: pointer;
+}
+
+.offer_sale {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.offer_time {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 8px 0 0;
+}
+
+.offer_time-days {
+  margin-right: 12px;
+}
+
+.offer_list {
+  align-items: flex-end;
+  flex-grow: 1;
+  position: relative;
+}
+
+.offer_item {
+  position: absolute;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+}
+
+.offer_marketer {
+  top: -200px;
+  right: 0px;
+}
+
+.offer_illustrator {
+  top: -320px;
+  right: 300px;
+}
+
+.offer_animator {
+  top: -220px;
+  left: 50px;
+}
+
+.offer_programmer {
+  top: -60px;
+  left: -60px;
+}
+
+.offer_designer {
+  top: 100px;
+  left: -150px;
+}
+
+.offer_photographer {
+  top: 250px;
+  left: -70px;
+}
+
+/* Learn section */
+
+.learn {
+  background: #19191c;
+  color: #fbfbfc;
+  padding: 168px 0 159px;
+}
+
+.learn-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn_text {
+  max-width: 588px;
+}
+
+.learn_title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.learn_description {
+  margin: 28px 0 24px;
+  color: #efeff2;
+}
+
+.learn_couters {
+  display: flex;
+  align-items: flex-start;
+  gap: 86px;
+}
+
+.learn_counter-item {
+  width: 178px;
+  border-bottom: 4px solid;
+  padding-bottom: 22px;
+}
+
+.learn_counter-number {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.learn_counter-description {
+  color: #efeff2;
+}
+
+/* Discover section */
+
+.discover {
+  padding: 168px 0;
+}
+
+.discover_title {
+  max-width: 594px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.discover_menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 0 65px;
+}
+
+.discover_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.discover_button {
+  padding: 12px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.discover_button.active {
+  font-weight: 700;
+  border-bottom: 4px solid;
+}
+
+.see_more {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #19191c;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.discover_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.discover_card-title {
+  margin: 28px 0 11px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.discover_card-length {
+  color: #6d6d77;
+}
+
+/* Find program section */
+
+.find_program {
+  background: #deefe4;
+}
+
+.find_program-box {
+  padding: 168px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.find_program-title {
+  margin: 0 0 28px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.find_program-form {
+  margin: 22px 0 0;
+}
+
+.find_program_input {
+  width: 710px;
+  margin-bottom: 48px;
+  display: block;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.find_program-button {
+  margin-top: 20px;
+  padding: 16px 36px;
+  background-color: #19191c;
+  border: none;
+  cursor: pointer;
+  color: #fbfbfc;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}

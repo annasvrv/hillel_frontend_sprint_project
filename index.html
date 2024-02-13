@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/12620f1f22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/navigation.css" />
+    <link rel="stylesheet" href="./style/index-mobile.css" />
+
+    <title>UpDate</title>
+  </head>
+  <body>
+    <header class="container header">
+      <div class="logo_box">
+        <a class="logo" href="index.html" title="Go to the Homepage">
+          <img src="./img/logo.svg" alt="logo of the company UpDate" />
+          UpDate
+        </a>
+      </div>
+
+      <div class="mobile_menu">
+        <button class="dropbtn" onclick="dropDownMenu()">
+          <i class="fa-solid fa-bars sandwich_icon"></i>
+        </button>
+        <div class="dropdown-content" id="dropdownNavContent">
+          <a href="./courses.html">Courses</a>
+          <a href="#"> Teachers</a>
+          <a href="#">Blog</a>
+          <a href="#">Sign In</a>
+          <a href="#">Trial free</a>
+          <select name="language" id="nav-language">
+            <option value="en">En</option>
+            <option value="fr">Fr</option>
+            <option value="ua">Ua</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="header_box">
+        <nav class="nav">
+          <ul class="nav_list">
+            <li>
+              <a class="nav_link" href="courses.html">Courses</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Teachers</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn-box">
+          <select name="language" id="nav-language">
+            <option value="en">En</option>
+            <option value="fr">Fr</option>
+            <option value="ua">Ua</option>
+          </select>
+          <a class="header_link" href="#">Sign In</a>
+          <a class="header_btn" href="#">Trial free</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="offer container">
+        <div class="offer_holder">
+          <h1 class="offer_title">
+            Explore thousands of hands-on creative classes.
+          </h1>
+          <p class="offer_description">
+            Start learning for <a href="courses.html">free</a>
+          </p>
+          <button class="button">Choose a cource</button>
+
+          <h3 class="offer_sale">50%</h3>
+          <p class="offer_time">
+            <time class="offer_time-days"> 17 Days </time>
+            <time> 17:44:16 </time>
+          </p>
+        </div>
+
+        <ul class="offer_list">
+          <li class="offer_marketer offer_item">Marketer</li>
+          <li class="offer_illustrator offer_item">Illustrator</li>
+          <li class="offer_animator offer_item">Animator</li>
+          <li class="offer_programmer offer_item">Programmer</li>
+          <li class="offer_designer offer_item">Designer</li>
+          <li class="offer_photographer offer_item">Photographer</li>
+        </ul>
+      </section>
+      <section class="learn">
+        <div class="learn-box container">
+          <div class="learn_text">
+            <h2 class="learn_title">What you will learn</h2>
+            <p class="learn_description">
+              Up-to-date knowledge from recognized market experts for beginners
+              and practitioners
+            </p>
+            <p class="learn_description">
+              On the platform, you can gain knowledge on current topics and
+              in-demand skills. All courses are aimed at practice: we monitor
+              the relevance of the material and help with employment and
+              internship
+            </p>
+          </div>
+
+          <div class="learn_couters">
+            <div class="learn_counter-item">
+              <h3 class="learn_counter-number">56</h3>
+              <p class="learn_counter-description">Courses</p>
+            </div>
+            <div class="learn_counter-item">
+              <h3 class="learn_counter-number">108</h3>
+              <p class="learn_counter-description">Curators</p>
+            </div>
+            <div class="learn_counter-item">
+              <h3 class="learn_counter-number">3 723</h3>
+              <p class="learn_counter-description">Graduates</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="container">
+          <h2 class="discover_title">Discover Lifelong Learning</h2>
+          <div class="discover_menu">
+            <ul class="discover_list">
+              <li>
+                <button class="discover_button active">Popular</button>
+              </li>
+              <li>
+                <button class="discover_button">Animation</button>
+              </li>
+              <li>
+                <button class="discover_button">Design</button>
+              </li>
+              <li>
+                <button class="discover_button">Illustration</button>
+              </li>
+              <li>
+                <button class="discover_button">Programming</button>
+              </li>
+              <li>
+                <button class="discover_button">Photo & Film</button>
+              </li>
+              <li>
+                <button class="discover_button">Marketing</button>
+              </li>
+            </ul>
+            <a class="see_more" href="#">
+              See more
+              <img src="./img/see-more-arrow.svg" alt="see-more-arrow" />
+            </a>
+          </div>
+
+          <div class="discover_cards">
+            <article class="discover_card-item">
+              <img src="./img/card-img-1.jpg" alt="Sales Marketing" />
+              <h3 class="discover_card-title">Sales Marketing</h3>
+              <p class="discover_card-length">6 months</p>
+            </article>
+            <article class="discover_card-item">
+              <img src="./img/card-img-2.jpg" alt="Data analytics" />
+              <h3 class="discover_card-title">Data analytics</h3>
+              <p class="discover_card-length">9 months</p>
+            </article>
+            <article class="discover_card-item">
+              <img src="./img/card-img-3.jpg" alt="Design art" />
+              <h3 class="discover_card-title">Design art</h3>
+              <p class="discover_card-length">4 months</p>
+            </article>
+            <article class="discover_card-item">
+              <img src="./img/card-img-4.jpg" alt="Animation" />
+              <h3 class="discover_card-title">Animation</h3>
+              <p class="discover_card-length">8 months</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="find_program">
+        <div class="container">
+          <div class="find_program-box">
+            <div class="find_program-text">
+              <h2 class="find_program-title">Can't find a suitable program?</h2>
+              <p class="find_program-description">
+                We will help you with the choice!
+              </p>
+            </div>
+            <form class="find_program-form">
+              <input
+                class="find_program_input"
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                class="find_program_input"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <button class="find_program-button">Help me</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <div class="contacts">
+            <a class="logo-footer" href="index.html" title="Go to the Homepage">
+              <img
+                src="./img/logo-footer.svg"
+                alt="logo of the company UpDate"
+              />
+              UpDate
+            </a>
+
+            <a class="contact_email" href="mailto:support@update.com"
+              >support@update.com</a
+            >
+            <a class="contact_phone" href="tel:12136771024"
+              >+1 (213) 677 10 24</a
+            >
+          </div>
+
+          <div class="sitemap">
+            <h6 class="sitemap_title">Courses</h6>
+            <ul class="sitemap_list">
+              <li>
+                <a href="#">Animation</a>
+              </li>
+              <li>
+                <a href="#">Design</a>
+              </li>
+              <li>
+                <a href="#">Illustration</a>
+              </li>
+              <li>
+                <a href="#">Programming</a>
+              </li>
+              <li>
+                <a href="#">Photo & Film</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap_title">Teachers</h6>
+            <ul class="sitemap_list">
+              <li>
+                <a href="#">All Teachers</a>
+              </li>
+              <li>
+                <a href="#">Become a Teacher</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap_title">Information</h6>
+            <ul class="sitemap_list">
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap_title">En</h6>
+            <ul class="sitemap_list">
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">French</a>
+              </li>
+              <li>
+                <a href="#">Ukrainian</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <a class="copyright-link" href="#">Policy privacy</a>
+          <div>Copyright 2022. All rights reserved</div>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/script.js"></script>
+  </body>
+</html>

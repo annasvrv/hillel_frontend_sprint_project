@@ -1,0 +1,280 @@
+/* Course section */
+
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: url(../img/female-courses-page.png) 100% 100%,
+    url(../img/Rectangle-purple.png) 83% 100%,
+    url(../img/Ellipse-bg1.png) 90% 45%, url(../img/Ellipse-bg2.png) 75% 200%;
+  background-repeat: no-repeat;
+}
+
+.course_info {
+  max-width: 648px;
+  margin: 200px 0 220px;
+  background: url(../img/Ellipse-bg3.png) 100% 60% no-repeat;
+}
+
+.course_duration {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.course_duration p {
+  width: 84px;
+  border-bottom: 4px solid #504dee;
+}
+
+.course_title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.course_description {
+  margin: 50px 0;
+}
+
+.button {
+  background: #504dee;
+  color: #fbfbfc;
+  border: none;
+  padding: 16px 37px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 110px;
+  cursor: pointer;
+}
+
+.offer_sale {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.offer_time {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 8px 0 0;
+}
+
+.offer_time-days {
+  margin-right: 12px;
+}
+
+.offer_list {
+  align-items: flex-end;
+  flex-grow: 1;
+  position: relative;
+}
+
+.offer_item {
+  position: absolute;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+}
+
+.course_invision {
+  top: 270px;
+  right: -20px;
+}
+
+.course_protopie {
+  top: 180px;
+  right: 170px;
+}
+
+.course_miro {
+  top: 270px;
+  left: 250px;
+}
+
+.course_photoshop {
+  top: 400px;
+  left: 100px;
+}
+
+.course_figma {
+  top: 550px;
+  left: -10px;
+}
+
+.course_illustrator {
+  top: 700px;
+  left: -70px;
+}
+
+/* Profession section  */
+
+.profession {
+  padding: 168px 0 0;
+  background: #fbfbfc;
+}
+
+.profession_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profession_type {
+  max-width: 588px;
+}
+
+.profession_title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.profession_description {
+  margin: 28px 0 168px;
+  color: #6d6d77;
+}
+
+.profession_stats {
+  display: flex;
+  align-items: flex-start;
+  gap: 103px;
+}
+
+.profession_stat-number {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.profession_stat {
+  width: 254px;
+  padding-bottom: 21px;
+  border-bottom: 4px solid;
+}
+
+.profession_stat-description {
+  margin-top: 18px;
+  color: #6d6d77;
+}
+
+.profession_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profession_card-item {
+  padding: 68px 48px;
+}
+
+.profession_card-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.profession_card-description {
+  border-top: 4px solid;
+  padding-top: 12px;
+}
+
+.card_portfolio {
+  background-color: #deefe4;
+}
+
+.card_internship {
+  background-color: #f3f3d7;
+}
+
+.card_certificate {
+  background-color: #efdeee;
+}
+
+/* Prices section */
+
+.prices {
+  padding: 171px 0 168px;
+  background: #fbfbfc;
+}
+
+.prices_title {
+  max-width: 500px;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.prices_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.prices_card-item {
+  width: 467px;
+  padding: 48px 55px;
+}
+
+.card_bg1-3 {
+  background-color: #deefe4;
+}
+
+.card_bg2 {
+  background-color: #504dee;
+  color: #fbfbfc;
+}
+
+.prices_card-total2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #efeff2;
+}
+
+.prices_card-title {
+  margin-bottom: 47px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.prices_card-list {
+  height: 300px;
+  margin-bottom: 116px;
+}
+
+.prices_card-list li {
+  margin-bottom: 22px;
+}
+
+.prices_card-total {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #6d6d77;
+}
+
+.prices_card-single {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  margin-bottom: 18px;
+}
+
+.prices_card-button {
+  padding: 16px 36px;
+  background-color: #19191c;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #fbfbfc;
+}
